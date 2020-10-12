@@ -3,8 +3,17 @@ body {
     font-family: sans-serif;
 }
 
-#game-center {
+#game {
     text-align: center;
+}
+
+#cookie-counter {
+    color: azure;
+    font-size: 80px;
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 80%);
 }
 
 #cookie {
@@ -21,7 +30,17 @@ body {
     width: 290px;
 }
 
-#cookie-counter {
-    color: azure;
-    font-size: 64px;
+#upgrades {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.upgrade {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    display: inline-block;
+    margin: 10px;
 }
