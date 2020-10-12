@@ -1,20 +1,27 @@
 body {
     background-color: darkblue;
+    font-family: sans-serif;
+}
+
+#game-center {
+    text-align: center;
 }
 
 #cookie {
-    width: 400px;
-    text-align: center;
+    width: 320px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
     cursor: pointer;
+    transition: 0.5s ease-in-out;
 }
 
-/*
 #cookie:hover {
-    transition: 0.5s;
-    width: 360px;
+    width: 290px;
 }
-*/
+
+#cookie-counter {
+    color: azure;
+    font-size: 64px;
+}
