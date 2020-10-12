@@ -8,9 +8,14 @@ let cookiesPerSecond = 0;
 
 const cookie = get('cookie');
 const cookieCounter = get('cookie-counter');
+const cpsCounter = get('cps-counter');
 
 function updateCookieCounter() {
     cookieCounter.innerHTML = `${cookies} cookies`;
+}
+
+function updateCpsCounter() {
+    cpsCounter.innerHTML = `${cookiesPerSecond} cps`;
 }
 
 cookie.onclick = function() {
